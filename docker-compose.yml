@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  translator:
+    build: .
+    working_dir: /code
+    command: tail -f /dev/null
+    volumes:
+      - $PWD:/code
