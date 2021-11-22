@@ -9,7 +9,7 @@ This package provide the function to translate a Chinese sentence into an Englis
 ## Install
 
 ```
-pip install -i https://test.pypi.org/simple/ cn2en
+pip install -i https://test.pypi.org/simple/ cn2en --extra-index-url https://pypi.org/simple
 ```
 
 ## Usage
